@@ -1,0 +1,5 @@
+def sum_of_series(n):
+    return n*(n+1)//2
+number = int(input("enter a number:"))
+result = sum_of_series(number)
+print("the number of series 1+2+3+.......+{number} is {result}")
