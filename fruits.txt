@@ -1,0 +1,9 @@
+def initialize_and_print_dictionary():
+    fruit_counts = {
+        "Apple": 5,
+        "Orange": 10,
+        "Banana": 12
+    }
+    for fruit, count in fruit_counts.items():
+        print(f"{fruit} : {count}")
+initialize_and_print_dictionary()

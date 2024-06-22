@@ -1,0 +1,13 @@
+def calculate_year_when_100(current_age):
+    """
+    Function to calculate the year when the user will turn 100
+    """
+    from datetime import datetime
+    current_year = datetime.now().year
+    years_to_100 = 100 - current_age
+    year_when_100 = current_year + years_to_100
+    return year_when_100
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+year_when_100 = calculate_year_when_100(age)
+print(f"Hello, {name}! You are currently {age} years old. You will turn 100 years old in the year {year_when_100}.")
